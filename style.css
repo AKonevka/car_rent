@@ -23,7 +23,7 @@ ul>li {
 }
 
 .rent {
-    background-color: #0C0F12;
+    background: radial-gradient(#203332, #161616);
     color: white;
     min-height: 100%;
     font-family: Arial, sans-serif;
@@ -60,6 +60,7 @@ h1 {
 .rent_terns__item {
     margin-right: 50xp;
     text-align: center;
+    width: 120px;
 }
 
 .rent-terns__img {
@@ -98,11 +99,6 @@ h1 {
 }
 
 @media (min-width: 1024px) {
-    .rent {
-        background-color: rgb(110, 66, 110);
-    }
-
-
     .rent__img {
         width: 800px;
     }
